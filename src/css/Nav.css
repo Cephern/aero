@@ -1,0 +1,58 @@
+nav {
+  display: grid;
+  grid-template-areas: "main_nav admin_nav";
+  background-image: url("../img/sky\ upper.jpg");
+  background-size: cover;
+}
+
+.main_nav {
+  grid-area: main_nav;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 20px;
+  margin: 10px 20px 0;
+  max-width: 1400px;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 2px 4px 4px #029bc5;
+}
+
+.main_nav li {
+  padding: 5px;
+  margin: 5px;
+  border-bottom: 2px solid blue;
+  border-right: 2px solid blue;
+  border-bottom-right-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.main_nav li:hover {
+  transform: scale(1.05);
+  border-bottom: 2px solid crimson;
+  border-right: 2px solid crimson;
+}
+
+.admin_nav {
+  grid-area: admin_nav;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 10px 20px 0;
+  width: 200px;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 2px 4px 4px #029bc5;
+}
+
+.admin_nav li {
+  text-align: center;
+  width: 40%;
+  color: #888;
+  cursor: pointer;
+}
+
+.admin_nav li:hover {
+  transform: scale(1.05);
+}

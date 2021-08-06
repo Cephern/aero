@@ -1,0 +1,93 @@
+#aeroNews {
+  position: relative;
+}
+
+main {
+  margin-top: 40px;
+}
+
+main h2 {
+  text-align: center;
+  border-bottom: 2px solid navy;
+  padding: 10px;
+}
+
+.news {
+  margin-top: 40px;
+  margin-right: 20px;
+  margin-left: auto;
+  width: 80%;
+}
+
+.theNews_article {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  background-color: #b3c8ff;
+  padding: 20px;
+  border: 2px solid #029bc5;
+  box-shadow: 4px 4px 4px #029bc5;
+  margin-bottom: 40px;
+}
+
+.left_content {
+  width: 26%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 10px;
+}
+
+.theNews_info {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.theNews_info p {
+  text-align: center;
+}
+
+.theNews_info .title,
+.theNews_info .importance,
+.theNews_info .published {
+  font-weight: bold;
+  font-size: 1.1em;
+  padding: 4px;
+}
+
+.theNews_info .titleData {
+  color: #002366;
+}
+
+.theNews_info .importanceData {
+  color: #2d9466;
+}
+
+.theNews_info .publishedData {
+  color: #b980f0;
+}
+
+.theNews {
+  width: 70%;
+}
+
+.theNews_main {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.theNews_main h3 {
+  padding: 20px;
+}
+
+.left_content button {
+  padding: 6px;
+  background-color: #fff;
+  border-radius: 20px;
+  border: 2px solid #029bc5;
+  cursor: pointer;
+}

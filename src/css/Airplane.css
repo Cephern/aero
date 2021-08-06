@@ -1,0 +1,6 @@
+.airplane_div {
+  position: sticky;
+  top: -2px;
+  background-image: url("../img/sky\ lower.jpg");
+  background-size: cover;
+}
